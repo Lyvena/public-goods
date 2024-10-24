@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
-import { LogIn } from 'lucide-react';
+import { LogIn, Settings } from 'lucide-react';
 import { Logo } from './Logo';
 
 export const Header: React.FC = () => {
@@ -18,6 +18,7 @@ export const Header: React.FC = () => {
               <li><Link to="/categories" className="text-gray-600 hover:text-blue-600">Categories</Link></li>
               <li><Link to="/contact" className="text-gray-600 hover:text-blue-600">Contact</Link></li>
               <li><Link to="/about" className="text-gray-600 hover:text-blue-600">About</Link></li>
+              <li><Link to="/settings" className="text-gray-600 hover:text-blue-600">Settings</Link></li>
             </ul>
           </nav>
           <Link to="/auth">
