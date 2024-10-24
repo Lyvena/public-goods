@@ -3,7 +3,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Newspaper, Globe, ArrowRight, Brain, Robot, Sparkles } from 'lucide-react';
+import { Newspaper, Globe, ArrowRight, Brain, Cpu, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Landing = () => {
@@ -53,7 +53,7 @@ const Landing = () => {
                 <p className="text-gray-600">Advanced algorithms analyze and curate news specifically tailored to public goods initiatives.</p>
               </div>
               <div className="p-6 rounded-lg bg-white shadow-lg">
-                <Robot className="h-12 w-12 text-green-500 mx-auto mb-4" />
+                <Cpu className="h-12 w-12 text-green-500 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Smart Filtering</h3>
                 <p className="text-gray-600">Intelligent filtering ensures you only see the most relevant and impactful news.</p>
               </div>
