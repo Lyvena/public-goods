@@ -16,6 +16,7 @@ export const Header: React.FC = () => {
             <ul className="flex space-x-6">
               <li><Link to="/" className="text-gray-600 hover:text-blue-600">Home</Link></li>
               <li><Link to="/categories" className="text-gray-600 hover:text-blue-600">Categories</Link></li>
+              <li><Link to="/contact" className="text-gray-600 hover:text-blue-600">Contact</Link></li>
               <li><Link to="/about" className="text-gray-600 hover:text-blue-600">About</Link></li>
             </ul>
           </nav>

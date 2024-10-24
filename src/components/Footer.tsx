@@ -12,10 +12,9 @@ export const Footer: React.FC = () => {
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h3 className="text-lg font-bold mb-2">Quick Links</h3>
             <ul className="text-sm">
-              <li><a href="#" className="hover:text-blue-400">Home</a></li>
-              <li><a href="#" className="hover:text-blue-400">Categories</a></li>
-              <li><a href="#" className="hover:text-blue-400">About</a></li>
-              <li><a href="#" className="hover:text-blue-400">Contact</a></li>
+              <li><a href="/" className="hover:text-blue-400">Home</a></li>
+              <li><a href="/categories" className="hover:text-blue-400">Categories</a></li>
+              <li><a href="/contact" className="hover:text-blue-400">Contact</a></li>
             </ul>
           </div>
           <div className="w-full md:w-1/3">
@@ -25,7 +24,7 @@ export const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-sm">
-          <p>&copy; 2023 AI-PGF News Curation. All rights reserved.</p>
+          <p>© <a href="https://lyvena.xyz/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">Lyvena.</a> All rights reserved.</p>
         </div>
       </div>
     </footer>
